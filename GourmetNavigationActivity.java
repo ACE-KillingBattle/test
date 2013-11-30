@@ -17,12 +17,12 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 
 import com.google.android.maps.MapActivity;
-
+//githubテスト
 public class GourmetNavigationActivity extends MapActivity implements OnClickListener{
 	//定数の宣言
 	public final String PROGRESS_MSG = "検索中";
 	public final int PROGRESS_DIALOG_ID = 1;
-	public final int INPUT_DIALOG_ID = 2;
+	public final int INPUT_DIALOG_ID = 3;
 	//変数の宣言
 	private String keyword="居酒屋";
 	private BigDecimal defoultLatitude = new BigDecimal(0.0);
